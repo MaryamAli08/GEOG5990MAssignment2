@@ -46,6 +46,7 @@ for row in reader:
 f.close()
 
 #Examine the density. Create a function to open
+# Also, to explore density replace town with density.append.
 density = []
 a = open(r'drunk.plan') 
 reader = csv.reader(a, quoting=csv.QUOTE_NONNUMERIC)
@@ -97,7 +98,7 @@ for i in range(num_of_drunks):
 
  
 # Locate the Pub , the starting location 
-# Use the enumerate to 
+# Use the enumerate for list
  
 #the pub is denoted by 1  
   
